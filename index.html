@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+    <title>PhoneBot Slider</title>
+</head>
+<body>
+    <div class="main_wrap">
+        <video src="./userfiles/1.mp4" autoplay muted class="backgr_vid"></video>
+        <div class="slider_wrap d-none">
+            <div class="slide d-flex">
+                <div class="slide_text_block">
+                    <h5 class="slide_headers t-duration-1s ani-f-l">Which device type are You interested in?</h5>
+                    <h3 class="slide_headers t-duration-1s ani-f-l">Price selection</h3>
+                    <div class="price_block d-flex">
+                        <div class="price_block_item t-duration-1s ani-f-l">
+                            <img src="#" alt="orange $ sign">
+                            <p class="price">80 - 250</p>
+                        </div>
+                        <div class="price_block_item t-duration-1s ani-f-l">
+                            <img src="#" alt="orange $ sign">
+                            <p class="price">250 - 500</p>
+                        </div>
+                        <div class="price_block_item t-duration-1s ani-f-l">
+                            <img src="#" alt="orange $ sign">
+                            <p class="price">500 - 750</p>
+                        </div>
+                        <div class="price_block_item t-duration-1s ani-f-l">
+                            <img src="#" alt="orange $ sign">
+                            <p class="price">750 - 1000+</p>
+                        </div>
+                    </div>
+                    <input type="range" name="price_range">
+                </div>
+                <div class="slide_img_block d-flex t-duration-1s ani-f-l">
+                    <!-- <img src="#" alt="phone image"> -->
+                    <div class="black_phone"></div>
+                    <img src="#" alt="grey $ sign" class="grey_sign">
+                    <div class="price_data d-flex">
+                        <img src="#" alt="orange $ sign" class="orange_sign">
+                        <p class="selected_price"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="rounds_wrap">
+                    <span class="round"></span>
+                    <span class="round"></span>
+                    <span class="round"></span>
+                    <span class="round"></span>
+                    <span class="round"></span>
+                    <span class="round"></span>
+                </div>
+                <button class="next_btn">Next</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
